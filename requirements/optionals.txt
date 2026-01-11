@@ -16,3 +16,4 @@ djangorestframework-gis>=1.0.0
 pydantic>=2,<3; python_version >= '3.7'
 django-rest-knox>=4.1
 django-allauth[socialaccount]
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
